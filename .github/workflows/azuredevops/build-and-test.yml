@@ -18,7 +18,7 @@ stages:
             inputs:
               action: Run a Docker Compose command
               dockerComposeFile: docker-compose.yml
-              projectName: sql-spark-connector
+              projectName: sql-spark-connector-3.4
               qualifyImageNames: true
               dockerComposeCommand: up -d
 
@@ -39,6 +39,6 @@ stages:
             inputs:
               action: Run a Docker Compose command
               dockerComposeFile: docker-compose.yml
-              projectName: sql-spark-connector
+              projectName: sql-spark-connector-3.4
               qualifyImageNames: true
               dockerComposeCommand: down
